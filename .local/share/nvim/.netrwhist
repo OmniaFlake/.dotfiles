@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/omnia/.dotfiles'
 let g:netrw_dirhist_4='/home/omnia/.dotfiles/.config/waybar'
 let g:netrw_dirhist_3='/home/omnia/.dotfiles/.config'
 let g:netrw_dirhist_2='/home/omnia/.dotfiles'
