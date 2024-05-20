@@ -1,0 +1,1 @@
+../../../../.dotfiles/.local/share/fish/generated_completions/systemd-networkd-wait-online.service.fish

@@ -1,0 +1,1 @@
+../../../../.dotfiles/.local/share/fish/generated_completions/automake-1.16.fish

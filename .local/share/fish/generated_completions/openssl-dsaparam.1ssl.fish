@@ -1,0 +1,1 @@
+../../../../.dotfiles/.local/share/fish/generated_completions/openssl-dsaparam.1ssl.fish

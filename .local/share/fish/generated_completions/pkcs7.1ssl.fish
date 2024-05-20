@@ -1,0 +1,1 @@
+../../../../.dotfiles/.local/share/fish/generated_completions/pkcs7.1ssl.fish

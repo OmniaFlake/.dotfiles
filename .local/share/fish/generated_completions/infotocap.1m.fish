@@ -1,0 +1,1 @@
+../../../../.dotfiles/.local/share/fish/generated_completions/infotocap.1m.fish

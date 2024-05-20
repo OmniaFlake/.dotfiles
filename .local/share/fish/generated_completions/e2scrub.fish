@@ -1,0 +1,1 @@
+../../../../.dotfiles/.local/share/fish/generated_completions/e2scrub.fish

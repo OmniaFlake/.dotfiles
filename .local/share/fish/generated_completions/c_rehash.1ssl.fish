@@ -1,0 +1,1 @@
+../../../../.dotfiles/.local/share/fish/generated_completions/c_rehash.1ssl.fish

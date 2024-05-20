@@ -1,0 +1,1 @@
+../../../../.dotfiles/.local/share/fish/generated_completions/gtk-query-immodules-3.0.fish

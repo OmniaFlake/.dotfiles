@@ -1,0 +1,1 @@
+../../../../.dotfiles/.local/share/fish/generated_completions/pango-view.fish

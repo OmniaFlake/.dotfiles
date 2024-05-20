@@ -1,0 +1,1 @@
+../../../../.dotfiles/.local/share/fish/generated_completions/gst-typefind-1.0.fish

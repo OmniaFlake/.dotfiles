@@ -1,0 +1,1 @@
+../../../../.dotfiles/.local/share/fish/generated_completions/verify.1ssl.fish

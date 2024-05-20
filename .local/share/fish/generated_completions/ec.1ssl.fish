@@ -1,0 +1,1 @@
+../../../../.dotfiles/.local/share/fish/generated_completions/ec.1ssl.fish

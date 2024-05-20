@@ -1,0 +1,1 @@
+../../../../.dotfiles/.local/share/fish/generated_completions/ts_print_mt.fish

@@ -1,0 +1,1 @@
+../../../../.dotfiles/.local/share/fish/generated_completions/sess_id.1ssl.fish

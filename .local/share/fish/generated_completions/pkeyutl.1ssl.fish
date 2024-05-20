@@ -1,0 +1,1 @@
+../../../../.dotfiles/.local/share/fish/generated_completions/pkeyutl.1ssl.fish
