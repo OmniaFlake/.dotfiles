@@ -1,1 +1,0 @@
-../../../../.dotfiles/.local/share/fish/generated_completions/streamzip.1perl.fish

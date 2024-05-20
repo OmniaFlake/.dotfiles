@@ -1,1 +1,0 @@
-../../../../.dotfiles/.local/share/fish/generated_completions/rsa.1ssl.fish

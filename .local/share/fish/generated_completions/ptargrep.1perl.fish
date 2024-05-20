@@ -1,1 +1,0 @@
-../../../../.dotfiles/.local/share/fish/generated_completions/ptargrep.1perl.fish

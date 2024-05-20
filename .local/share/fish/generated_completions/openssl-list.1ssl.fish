@@ -1,1 +1,0 @@
-../../../../.dotfiles/.local/share/fish/generated_completions/openssl-list.1ssl.fish

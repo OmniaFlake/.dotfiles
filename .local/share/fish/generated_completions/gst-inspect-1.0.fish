@@ -1,1 +1,0 @@
-../../../../.dotfiles/.local/share/fish/generated_completions/gst-inspect-1.0.fish

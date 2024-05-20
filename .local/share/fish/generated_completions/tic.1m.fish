@@ -1,1 +1,0 @@
-../../../../.dotfiles/.local/share/fish/generated_completions/tic.1m.fish

@@ -1,1 +1,0 @@
-../../../../.dotfiles/.local/share/fish/generated_completions/libinput-analyze-per-slot-delta.fish

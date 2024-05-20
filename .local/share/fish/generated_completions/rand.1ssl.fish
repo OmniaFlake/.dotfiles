@@ -1,1 +1,0 @@
-../../../../.dotfiles/.local/share/fish/generated_completions/rand.1ssl.fish

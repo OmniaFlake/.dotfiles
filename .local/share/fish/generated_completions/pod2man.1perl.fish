@@ -1,1 +1,0 @@
-../../../../.dotfiles/.local/share/fish/generated_completions/pod2man.1perl.fish

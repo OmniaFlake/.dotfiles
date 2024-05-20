@@ -1,1 +1,0 @@
-../../../../.dotfiles/.local/share/fish/generated_completions/gst-launch-1.0.fish

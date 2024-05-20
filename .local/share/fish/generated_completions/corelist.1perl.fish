@@ -1,1 +1,0 @@
-../../../../.dotfiles/.local/share/fish/generated_completions/corelist.1perl.fish
