@@ -1,0 +1,23 @@
+2024-06-05 20:59:23.522 [info] Extension host with pid 13930 started
+2024-06-05 20:59:23.522 [info] Skipping acquiring lock for /home/omnia/.config/VSCodium/User/workspaceStorage/2a8ba48318083e77a25ddabeff29fe03.
+2024-06-05 20:59:23.779 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-05 20:59:23.798 [info] ExtensionService#_doActivateExtension REditorSupport.r, startup: false, activationEvent: 'onLanguage:r'
+2024-06-05 20:59:24.290 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-05 20:59:24.413 [info] Extension host with pid 13979 started
+2024-06-05 20:59:24.413 [info] Skipping acquiring lock for /home/omnia/.config/VSCodium/User/workspaceStorage/2a8ba48318083e77a25ddabeff29fe03.
+2024-06-05 20:59:24.436 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-05 20:59:24.437 [info] Eager extensions activated
+2024-06-05 20:59:24.448 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2024-06-05 20:59:24.517 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-05 20:59:24.728 [info] Eager extensions activated
+2024-06-05 20:59:24.858 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-05 20:59:24.861 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-05 20:59:24.961 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-06-05 20:59:25.785 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at b.shutdown (/home/omnia/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal/dist/extension.js:2:541057)
+	at b.stop (/home/omnia/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal/dist/extension.js:2:540638)
+	at b.stop (/home/omnia/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal/dist/extension.js:2:707036)
+	at ChildProcess.<anonymous> (/home/omnia/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal/dist/extension.js:2:348078)
+	at ChildProcess.emit (node:events:529:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-06-05 20:59:33.244 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

@@ -1,0 +1,3 @@
+2024-06-05 20:47:03.516 [info] Started initializing default profile extensions in extensions installation folder. file:///home/omnia/.vscode-oss/extensions
+2024-06-05 20:47:03.887 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/omnia/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/omnia/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-06-05 20:47:03.888 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/omnia/.vscode-oss/extensions
