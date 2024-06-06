@@ -448,6 +448,11 @@ qt-privacy-ask=0
 # Seek threshold (integer)
 #prefetch-seek-threshold=16384
 
+[notify] # LibNotify Notification Plugin
+
+# Timeout (ms) (integer)
+#notify-timeout=4000
+
 [es] # Elementary stream output
 
 # Output access method (string)
@@ -1371,17 +1376,6 @@ qt-privacy-ask=0
 # Auto connection (boolean)
 #jack-input-auto-connect=0
 
-[smb] # SMB input
-
-# Username (string)
-#smb-user=
-
-# Password (string)
-#smb-pwd=
-
-# SMB domain (string)
-#smb-domain=
-
 [access] # HTTPS input
 
 # Cookies forwarding (boolean)
@@ -1691,6 +1685,11 @@ qt-privacy-ask=0
 
 # Auto re-connect (boolean)
 #http-reconnect=0
+
+[dvdread] # DVDRead Input (no menu support)
+
+# DVD angle (integer)
+#dvdread-angle=1
 
 [cdda] # Audio CD input
 
@@ -3979,7 +3978,7 @@ qt-privacy-ask=0
 random=1
 
 # Repeat all (boolean)
-#loop=0
+loop=1
 
 # Repeat current item (boolean)
 #repeat=0
