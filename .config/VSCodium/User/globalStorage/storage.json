@@ -4,7 +4,9 @@
         "workspaces": {
             "file:///home/omnia/.dotfiles/.config/hypr": "__default__profile__",
             "file:///home/omnia": "__default__profile__",
-            "file:///home/omnia/projects/R": "__default__profile__"
+            "file:///home/omnia/projects/R": "__default__profile__",
+            "file:///home/omnia/projects/rust/shell": "__default__profile__",
+            "file:///home/omnia/projects/rust/hello": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -15,15 +17,15 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/omnia/projects/R"
+                "folderUri": "file:///home/omnia/projects/rust/hello"
             }
         ],
         "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/omnia/projects/R",
-            "backupPath": "/home/omnia/.config/VSCodium/Backups/1706a584ad34294064181b9a3cef875c",
+            "folder": "file:///home/omnia/projects/rust/hello",
+            "backupPath": "/home/omnia/.config/VSCodium/Backups/89b41455fe151e4b0f4d33f6fba1fcc1",
             "uiState": {
                 "mode": 1,
                 "x": 1,
@@ -73,10 +75,33 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/omnia/projects/rust/hello",
+                                        "path": "/home/omnia/projects/rust/hello",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/rust/hello"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/omnia/projects/rust/shell",
+                                        "path": "/home/omnia/projects/rust/shell",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/rust/shell"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -156,8 +181,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -167,6 +191,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -703,13 +734,6 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -809,7 +833,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -1497,11 +1522,6 @@
                 "label": "Ctrl+W V",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+w v"
-            },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",

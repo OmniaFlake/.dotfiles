@@ -1,0 +1,23 @@
+2024-06-08 10:38:22.855 [info] Log level: Info
+2024-06-08 10:38:22.855 [info] Validating found git in: "git"
+2024-06-08 10:38:22.855 [info] Using git "2.45.2" from "git"
+2024-06-08 10:38:22.855 [info] > git rev-parse --show-toplevel [12ms]
+2024-06-08 10:38:22.855 [info] > git rev-parse --show-toplevel [7ms]
+2024-06-08 10:38:22.859 [info] > git rev-parse --show-toplevel [7ms]
+2024-06-08 10:38:36.625 [info] > git rev-parse --show-toplevel [8ms]
+2024-06-08 10:38:36.650 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2024-06-08 10:38:36.697 [info] Open repository: /home/omnia/projects/rust
+2024-06-08 10:38:36.717 [info] > git config --get commit.template [6ms]
+2024-06-08 10:38:36.733 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-06-08 10:38:36.751 [info] > git status -z -uall [12ms]
+2024-06-08 10:38:36.888 [info] > git merge-base refs/heads/main refs/remotes/origin/main [122ms]
+2024-06-08 10:38:36.899 [info] > git config --get commit.template [12ms]
+2024-06-08 10:38:36.908 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [10ms]
+2024-06-08 10:38:36.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2024-06-08 10:38:36.943 [info] > git diff --name-status -z --diff-filter=ADMR b87009600890dcb4e3440ff2c5e1c8a86d16adde...refs/remotes/origin/main [29ms]
+2024-06-08 10:38:36.964 [info] > git status -z -uall [12ms]
+2024-06-08 10:38:37.224 [info] > git check-ignore -v -z --stdin [2ms]
+2024-06-08 10:38:39.497 [info] > git check-ignore -v -z --stdin [9ms]
+2024-06-08 10:38:41.219 [info] > git show --textconv :hello/src/main.rs [13ms]
+2024-06-08 10:38:41.221 [info] > git ls-files --stage -- /home/omnia/projects/rust/hello/src/main.rs [2ms]
+2024-06-08 10:38:41.235 [info] > git cat-file -s 9b9bd10bdce7aa9a314c312d1512087021d4a251 [4ms]
