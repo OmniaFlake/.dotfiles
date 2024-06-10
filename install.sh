@@ -1,11 +1,8 @@
-sudo pacman -S man
-read -p "Continue? (y/n) " response
+sudo pacman -S man stow wl-clipboard fish hyprpaper fastfetch ripgrep neovim thunar rust kitty tmux zellij brightnessctl wireplumber openssh nerd-fonts python3 wofi go zoxide nodejs 
+cd ~
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+chsh
 
-if test $response = "y"
-  # Continue with the installation
-  echo "Installing..."
-else
-  # Cancel the installation
-  echo "Installation cancelled."
-  exit 1
-end
+
