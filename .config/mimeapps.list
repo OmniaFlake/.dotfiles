@@ -1,0 +1,5 @@
+[Default Applications]
+image/jpeg=vlc.desktop
+
+[Added Associations]
+image/jpeg=vlc.desktop;
