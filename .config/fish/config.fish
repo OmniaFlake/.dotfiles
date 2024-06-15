@@ -6,5 +6,4 @@ if status is-interactive
     alias haki-nvim "rm -rf ~/.config/nvim && rm -rf ~/.local/share/nvim"  
     alias nvim-config "git clone https://github.com/TheNewLearner1/stupidnvim ~/.config/nvim"
     # Commands to run in interactive sessions can go here
-    tmux
 end
