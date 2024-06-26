@@ -1,5 +1,6 @@
 [Default Applications]
 image/jpeg=vlc.desktop
+x-scheme-handler/discord-719647875465871400=discord-719647875465871400.desktop
 
 [Added Associations]
 image/jpeg=vlc.desktop;
