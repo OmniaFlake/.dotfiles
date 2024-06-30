@@ -1,0 +1,13 @@
+2024/06/27-19:29:13.733 4 Creating DB /home/omnia/.config/google-chrome/Default/Local Storage/leveldb since it was missing.
+2024/06/27-19:29:13.757 4 Reusing MANIFEST /home/omnia/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2024/06/27-19:33:00.640 5 Level-0 table #5: started
+2024/06/27-19:33:00.657 5 Level-0 table #5: 288670 bytes OK
+2024/06/27-19:33:00.668 5 Delete type=0 #3
+2024/06/27-19:42:39.061 5 Level-0 table #7: started
+2024/06/27-19:42:39.068 5 Level-0 table #7: 295880 bytes OK
+2024/06/27-19:42:39.073 5 Delete type=0 #4
+2024/06/27-19:42:50.495 5 Level-0 table #9: started
+2024/06/27-19:42:50.512 5 Level-0 table #9: 285755 bytes OK
+2024/06/27-19:42:50.520 5 Delete type=0 #6
+2024/06/27-19:43:09.483 5 Level-0 table #11: started
+2024/06/27-19:43:09.500 5 Level-0 table #11: 285991 bytes OK

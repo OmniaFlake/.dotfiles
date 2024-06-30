@@ -1,0 +1,7 @@
+2024/06/27-20:08:02.651 4 Reusing MANIFEST /home/omnia/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2024/06/27-20:08:02.659 4 Recovering log #8
+2024/06/27-20:08:02.664 4 Level-0 table #11: started
+2024/06/27-20:08:02.677 4 Level-0 table #11: 285991 bytes OK
+2024/06/27-20:08:02.677 4 Recovering log #10
+2024/06/27-20:08:02.680 4 Reusing old log /home/omnia/.config/google-chrome/Default/Local Storage/leveldb/000010.log 
+2024/06/27-20:08:02.686 4 Delete type=0 #8
