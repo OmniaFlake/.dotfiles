@@ -1,2 +1,3 @@
-2024/06/29-16:57:02.788 1aeb Creating DB /home/omnia/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb since it was missing.
-2024/06/29-16:57:02.795 1aeb Reusing MANIFEST /home/omnia/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/03-19:37:12.470 558 Reusing MANIFEST /home/omnia/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/03-19:37:12.473 558 Recovering log #4
+2024/07/03-19:37:12.473 558 Reusing old log /home/omnia/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/000004.log 
