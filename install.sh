@@ -6,13 +6,14 @@ cd ~
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-yay -S firefox
+yay -S firefox hyprland-git
 cd ~/.dotfiles
 rm -rf ~/.config
 stow .
+cd ~
+git clone https://github.com/TheNewlearner1/.file
 chsh
 git config --global user.email "zzzooozzz836@gmail.com"
 git config --global user.name "omnia"
-
 sudo pacman -Rs dolphin
-sudo reboot now
+Hyprland
