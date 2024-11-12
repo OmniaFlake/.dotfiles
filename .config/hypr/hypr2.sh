@@ -1,5 +1,5 @@
 rm -rf ~/.config
 cd ~/.file
 stow .
-killall hyprpaper
+pkill hyprpaper
 hyprpaper
