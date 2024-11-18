@@ -12,7 +12,6 @@ in
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
     ];
-    
   services.xserver.enable = true;
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
@@ -51,7 +50,7 @@ in
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  users.defaultUserShell = pkgs.zsh;
+  users.defaultUserShell = pkgs.fish;
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
@@ -63,14 +62,17 @@ in
      tmux
      unstable.kitty
      yazi
+     cmatrix
      fastfetch
      waybar
-     zsh
      stow
      brightnessctl
      unstable.firefox
+     unstable.krita
+     home-manager
      unstable.hyprpaper
      fish
+     unstable.hyprshot
      rustc
      unstable.zed-editor
      unstable.dino
