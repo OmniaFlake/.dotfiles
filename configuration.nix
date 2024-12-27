@@ -24,13 +24,15 @@ in
   # networking.proxy.default = "http://user:password@proxy:port/";
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
   programs.fish.enable = true;
-  # Enable networking
-  networking.networkmanager.enable = true;
   programs.hyprland.enable = true;
+  programs.steam.enable = true; 
+ # Enable networking
+  networking.networkmanager.enable = true;
   # Set your time zone.
   time.timeZone = "Asia/Kathmandu";
   hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
+  programs.gamemode.enable = true;
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
   # Configure keymap in X11
@@ -48,7 +50,6 @@ in
   };
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
-  programs.gamemode.enable = true;
   users.defaultUserShell = pkgs.fish;
   # List packages installed in system profile. To search, run:
   # $ nix search wget
@@ -62,27 +63,38 @@ in
      unstable.kitty
      unstable.xfce.thunar
      mangohud
-     unstable.lutris
+     lutris
      yazi
+     unstable.lime3ds
+     speechd
      cmatrix
      fastfetch
      waybar
+     vlc
+     glava
+     bitwarden
+     oath-toolkit
+     discord
+     unstable.python3
+     alsa-utils
      stow
      brightnessctl
      unstable.firefox
      unstable.krita
      home-manager
-     unstable.hyprpaper
+     hyprpaper
      fish
      unstable.hyprshot
      rustc
      unstable.zed-editor
      unstable.dino
      cargo
+     unstable.tor-browser
      fzf
      p7zip
      wl-clipboard
-     unstable.hyprland
+     hyprland
+     unstable.tor
      btop
      unstable.anyrun
      unstable.neovim
