@@ -25,7 +25,7 @@ in
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
   programs.fish.enable = true;
   programs.hyprland.enable = true;
-  programs.steam.enable = true; 
+  programs.ssh.askPassword = "";
  # Enable networking
   networking.networkmanager.enable = true;
   # Set your time zone.
@@ -57,7 +57,7 @@ in
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
      vim
-     git
+     unstable.git
      wofi
      tmux
      unstable.kitty
@@ -68,6 +68,8 @@ in
      unstable.lime3ds
      speechd
      cmatrix
+     unstable.sway
+     unstable.foot
      fastfetch
      waybar
      vlc
@@ -97,6 +99,7 @@ in
      unstable.tor
      btop
      unstable.anyrun
+     unstable.ghostty
      unstable.neovim
      zoxide
      wireplumber
