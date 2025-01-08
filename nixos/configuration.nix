@@ -14,9 +14,8 @@ in
     ];
   services.xserver.enable = true;
   # Bootloader.
-  boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-  programs.zsh.enable = true;
+  boot.loader.systemd-boot.enable = true;
   nix.settings.experimental-features = ["nix-command" "flakes"];
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -24,7 +23,6 @@ in
   # networking.proxy.default = "http://user:password@proxy:port/";
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
   programs.fish.enable = true;
-  programs.hyprland.enable = true;
   programs.ssh.askPassword = "";
  # Enable networking
   networking.networkmanager.enable = true;
@@ -32,7 +30,6 @@ in
   time.timeZone = "Asia/Kathmandu";
   hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
-  programs.gamemode.enable = true;
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
   # Configure keymap in X11
@@ -62,11 +59,9 @@ in
      tmux
      unstable.kitty
      unstable.xfce.thunar
-     mangohud
-     lutris
      yazi
-     unstable.lime3ds
      speechd
+     i3
      cmatrix
      unstable.sway
      unstable.foot
@@ -74,6 +69,7 @@ in
      waybar
      vlc
      glava
+     librewolf
      bitwarden
      oath-toolkit
      discord
@@ -89,14 +85,12 @@ in
      unstable.hyprshot
      rustc
      unstable.zed-editor
-     unstable.dino
      cargo
      unstable.tor-browser
      fzf
      p7zip
      wl-clipboard
      hyprland
-     unstable.tor
      btop
      unstable.anyrun
      unstable.ghostty
@@ -143,6 +137,6 @@ in
   # this value at the release version of the first install of this system.
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
-  system.stateVersion = "24.05"; # Did you read the comment?
+  system.stateVersion = "24.11"; # Did you read the comment?
 
 }
