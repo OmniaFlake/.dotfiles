@@ -66,6 +66,7 @@ in
      unstable.sway
      unstable.foot
      fastfetch
+     zellij
      waybar
      vlc
      glava
