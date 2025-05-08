@@ -1,6 +1,6 @@
 if pgrep -x "hyprpaper" > /dev/null
-then 
+then
   pkill hyprpaper
-else
+else 
   hyprpaper &
 fi

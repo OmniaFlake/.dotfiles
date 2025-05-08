@@ -8,7 +8,7 @@
 #
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
-set $opacity 1
+set $opacity 0.8 
 # Home row direction keys, like vim
 set $left h
 set $down j
@@ -80,10 +80,11 @@ output * bg /home/omnia/wallpaper/peakpx.jpg fill
     # Change normal to inverse to use left mouse button for resizing and right
     # mouse button for dragging.
     floating_modifier $mod normal
-    bindsym $mod+p exec ~/.dotfiles/.config/sway/switch.sh
+    bindsym $mod+p exec ~/.file/.config/sway/switch.sh
     # Reload the configuration file
     bindsym $mod+c reload
-
+    bindsym $mod+F1 exec ~/.config/sway/bright-.sh
+    bindsym $mod+F2 exec ~/.config/sway/bright+.sh
     # Exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
 #
@@ -181,8 +182,8 @@ mode "resize" {
     # left will shrink the containers width
     # right will grow the containers width
     # up will shrink the containers height
-    # down will grow the containers height
-    bindsym $left resize shrink width 10px
+# down will grow the containers height
+  bindsym $left resize shrink width 10px
     bindsym $down resize grow height 10px
     bindsym $up resize shrink height 10px
     bindsym $right resize grow width 10px
@@ -211,5 +212,6 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
     # Special key to take a screenshot with grim
     bindsym Print exec grim
+
 
 

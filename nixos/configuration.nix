@@ -23,6 +23,8 @@ in
   # networking.proxy.default = "http://user:password@proxy:port/";
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
   programs.fish.enable = true;
+  programs.hyprland.enable = true;
+  programs.river.enable = true;
   programs.ssh.askPassword = "";
  # Enable networking
   networking.networkmanager.enable = true;
@@ -62,12 +64,14 @@ in
      yazi
      speechd
      i3
+     gnome-disk-utility
      cmatrix
      unstable.sway
      unstable.foot
      fastfetch
      waybar
      vlc
+     river
      glava
      librewolf
      bitwarden

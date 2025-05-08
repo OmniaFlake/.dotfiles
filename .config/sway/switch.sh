@@ -1,4 +1,4 @@
 rm -rf ~/.config;
-cd ~/.file;
+cd ~/.dotfiles;
 stow .;
 swaymsg reload;

@@ -1,6 +1,6 @@
-if pgrep  -x ".waybar-wrapped" > /dev/null
+if pgrep -x ".waybar-wrapped" > /dev/null
 then 
   pkill waybar
 else
-  waybar & 
+  waybar &
 fi

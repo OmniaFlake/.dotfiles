@@ -1,0 +1,15 @@
+[2025-03-20 16:30:37.865] [info]  Error: The name org.freedesktop.secrets was not provided by any .service files
+[2025-03-20 16:30:37.877] [error] Refresh token not found in secure storage. Access token will fail to refresh upon expiration or manual refresh.
+[2025-03-20 16:30:38.013] [error] Error refreshing access token:  Error: Cannot refresh access token, no refresh token or api keys are stored.
+[2025-03-20 16:35:38.057] [info]  Error: The name org.freedesktop.secrets was not provided by any .service files
+[2025-03-20 16:35:38.058] [error] Refresh token not found in secure storage. Access token will fail to refresh upon expiration or manual refresh.
+[2025-03-20 16:35:38.112] [error] Error refreshing access token:  Error: Cannot refresh access token, no refresh token or api keys are stored.
+[2025-03-20 16:40:38.152] [info]  Error: The name org.freedesktop.secrets was not provided by any .service files
+[2025-03-20 16:40:38.153] [error] Refresh token not found in secure storage. Access token will fail to refresh upon expiration or manual refresh.
+[2025-03-20 16:40:38.208] [error] Error refreshing access token:  Error: Cannot refresh access token, no refresh token or api keys are stored.
+[2025-03-20 16:45:38.263] [info]  Error: The name org.freedesktop.secrets was not provided by any .service files
+[2025-03-20 16:45:38.266] [error] Refresh token not found in secure storage. Access token will fail to refresh upon expiration or manual refresh.
+[2025-03-20 16:45:38.342] [error] Error refreshing access token:  Error: Cannot refresh access token, no refresh token or api keys are stored.
+[2025-03-20 16:50:38.380] [info]  Error: The name org.freedesktop.secrets was not provided by any .service files
+[2025-03-20 16:50:38.384] [error] Refresh token not found in secure storage. Access token will fail to refresh upon expiration or manual refresh.
+[2025-03-20 16:50:38.458] [error] Error refreshing access token:  Error: Cannot refresh access token, no refresh token or api keys are stored.
