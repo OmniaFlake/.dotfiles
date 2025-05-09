@@ -80,7 +80,6 @@ output * bg /home/omnia/wallpaper/peakpx.jpg fill
     # Change normal to inverse to use left mouse button for resizing and right
     # mouse button for dragging.
     floating_modifier $mod normal
-    bindsym $mod+p exec ~/.file/.config/sway/switch.sh
     # Reload the configuration file
     bindsym $mod+c reload
     bindsym $mod+F1 exec ~/.config/sway/bright-.sh
