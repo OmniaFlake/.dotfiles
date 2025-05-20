@@ -1,0 +1,5 @@
+[[keymap.bindings]]
+key = "A"
+modifiers = ["Alt"]
+action = "Launch"
+command = "fastfetch"
