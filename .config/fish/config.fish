@@ -15,7 +15,7 @@ if status is-interactive
     alias nvim-config "git clone https://github.com/TheNewLearner1/stupidnvim ~/.config/nvim"
     alias conf-add "git add fish hypr sway ghostty tmux wofi tmux waybar fastfetch"
     alias nixv "nix run github:omniaflake/nix-v"
-    bind \ea ';echo type "mytmux_helper" | dotool; echo key "enter" | dotool'
+    bind \ed "mytmux_helper"
     # Commands to run in interactive sessions can go here
     #
     #
